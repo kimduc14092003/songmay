@@ -1,0 +1,96 @@
+/* PC low */
+@media (min-width: 1024px) and (max-width: 1239px)
+{
+    .service__item-title{
+        margin: 0;
+    }
+}
+/* Mobile & Tablet */
+@media (max-width :1023px) {
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .header{
+        padding-top: 80px;
+    }
+    .menu__left,.menu__right{
+        display: none;
+    }
+    .header-menu{
+        width: 95%;
+        justify-content: space-between;
+    }
+    .menu__mini-icon{
+        display: block;
+    }
+    .footer__social {
+        margin-top: 60px;
+    }
+    
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+    .hide-on-tablet{
+        display: none;
+    }
+    .service__item{
+        margin-bottom: 20px;
+    }
+    .course__link{
+        margin-bottom: 20px;
+    }
+    .news__content {
+        width: 90%;
+    }
+    .news__list-item-name{
+        padding: 0;
+    }
+}
+
+/* Mobile  */
+@media (max-width:739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+    .about {
+        padding: 32px 12px 0 12px;
+    }
+    .about__title{
+        font-size: 32px;
+    }
+    .service {
+        padding:0 12px;
+    }
+    .service__item{
+        margin-top: 20px;
+    }
+    .course {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .course__title{
+        font-size: 32px;
+    }
+    .course__link-name{
+        margin: 0 4px;
+    }
+    .course__link {
+        margin-top: 20px;
+    }
+    .feedback__list{
+        padding-bottom: 120px;
+    }
+    .feedback__title{
+        font-size: 32px;
+    }
+    .register__img{
+        display: none;
+    }
+    .footer__content {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .menu__mini{
+        width: 70%;
+    }
+}
