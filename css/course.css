@@ -1,0 +1,100 @@
+.course{
+    padding-top: 90px;
+    min-height: 200px;
+    padding-bottom: 100px;
+}
+.course_title{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #524F8D;
+}
+.course_item{
+    overflow: hidden;
+    position: relative;
+    display: flex !important;
+    justify-content: center;
+    border-radius: 10px;
+}
+.course_item-content{
+    display: block;
+    border: 1px solid rgb(175, 83, 83);
+    margin-bottom: 10px ;
+    border: none;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+.course_item-img{
+    padding-top: 64%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: relative;
+    display: flex;
+}
+.course_item-name{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+.course_item-information{
+    text-align: center;
+    padding: 32px 20px 100px 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+.course_item-desc{
+    color: #3E3E3E80;    
+}
+.course_item-time{
+    margin: 16px 0;
+    color: #3E3E3E;
+}
+.course_item-promote{
+    margin: 26px 0;
+    color: #3E3E3E;
+}
+.course_item-price{
+    color: #3E3E3E;
+}
+.course_item-price-number{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.course_item-btn{
+    display: block;
+    height: 48px;
+    width: 208px;
+    border-radius: 30px;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #524F8D;
+    background-color: #FFCF4B;
+
+    position: absolute;
+    bottom: 40px;
+}
+.course_item-btn:hover {
+    opacity: 0.7;
+    color: #524F8D;
+}

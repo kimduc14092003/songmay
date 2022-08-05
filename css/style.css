@@ -626,6 +626,7 @@ a:hover{
 .register__button:hover{
     color: #000;
     opacity: 0.7;
+    cursor: pointer;
 }
 
 /* Footer */
