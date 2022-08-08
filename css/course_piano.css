@@ -1,0 +1,320 @@
+.course_piano{
+    padding-top: 100px;
+    display: flex;
+    font-family: Roboto;
+
+}
+.course_piano1{
+    background-color: #f2f5f9;
+
+}
+.course_piano-infor{
+    padding: 42px 20px 0 20px;
+    margin-bottom: 42px;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgb(222, 222, 222);
+    border-radius: 6px;
+}
+
+.infor_header-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #524F8D;
+    margin-top: 0;
+}
+.infor_header-teacher{
+
+}
+.infor_header-studentList{
+    margin-left: 36px;
+}
+.infor_header-vote{
+    margin-left: 36px;
+}
+.infor_header-vote i{
+    color: #ffcb82;
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.infor_benefit{
+    background: #524F8D url(/img/loi-ich-khoa-hoc-bg.png) right 100% no-repeat;
+    border-radius: 8px;
+    padding: 20px 120px 8px 22px;
+    color: #fff;
+    margin-bottom: 26px;
+    padding-right: 120px;
+    background-size: 121px auto;
+}
+.infor_benefit-title{
+
+}
+.infor_benefit-list{
+    padding: 0;
+}
+.infor_benefit-item{
+    display: flex;
+    padding-bottom: 4px;
+    line-height: 24px;
+
+}
+.infor_benefit-item-icon{
+    color: #ffcb82;
+    padding-right: 12px;
+}
+
+.infor_des{
+
+}
+.infor_des-title{
+    font-size: 28px;
+}
+.infor_des>p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+.infor_suitable-title{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.infor_suitable-list{
+
+}
+.infor_suitable-item{
+    list-style: disc;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+.infor_teacher{
+
+}
+.infor_teacher-title{
+    font-size: 24px;
+}
+.infor_teacher-content{
+    display: flex;
+}
+.infor_teacher-content img{
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+}
+/* .infor_teacher-img{
+   flex: 1;
+} */
+.infor_teacher-des{
+    flex: 3;
+    padding-left: 24px;
+}
+.infor_teacher-name{
+    margin-top: 0;
+    font-size: 22px;
+}
+.infor_teacher-detail{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* ========================================== */
+/*course_recap  */
+.course_recap{
+    padding: 12px;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    box-shadow: 0 0 0 1px rgb(222, 222, 222);
+    border-radius: 6px;
+}
+.recap_video{
+    padding-top: 64%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recap_content-title{
+    font-size: 20px;
+}
+.recap_content-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.recap_content-item{
+    width: 50%;
+    padding: 4px;
+    display: flex;
+    color: #828282;
+}
+.recap_content-icon{
+    padding-right: 8px;
+}
+
+.recap_content-price{
+}
+.recap_content-price-current{
+    font-size: 28px;
+    font-weight: 600;
+    color: #FA5252;
+    margin-right: 16px;
+}
+.recap_content-price-old{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.recap_content-price-percent{
+    padding-left: 16px;
+    color: #FA5252;
+    font-size: 20px;
+}
+.recap_content-btn{
+    margin-top: 16px;
+    width: 100%;
+    line-height: 44px;
+    border-radius: 100px;
+    background-color: #FA5252;
+    border: none;
+
+    color: #f2f5f9;
+    font-size: 20px;
+    font-weight: 600;
+}
+.recap_content-btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* ============================================ */
+/* Register form */
+.register-form{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 12;
+    display: none;
+    font-family: Roboto;
+}
+.register_overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    opacity: 0.8;
+    position: absolute;
+    animation: fadeIn linear 0.25s;
+}
+.register_box{
+    z-index: 13;
+    min-height: 100px;
+    width: 25%;
+    background-color: #fff;
+    margin: auto;
+    padding: 12px 40px 20px 40px;
+    position: relative;
+    border-radius: 8px;
+    animation: growth linear 0.25s;
+}
+.register_exit{
+    padding: 10px 12px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+.register_exit:hover{
+    cursor: pointer;
+    background-color: rgb(198, 198, 198);
+}
+.register_box-title{
+    text-align: center;
+    font-size: 28px;
+    color: #524F8D;
+}
+.register_box-content{
+
+}
+.register_box-content input{
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 24px;
+    padding: 10px;
+    border-radius: 100px;
+    border: 1px solid #b5b5b5;
+    position: relative;
+}
+
+.input_block{
+    position: relative;
+}
+.input_block>i{
+    position: absolute;
+    display: none;
+    right:10px;
+    top: 0;
+    transform: translateY(75%);
+    color: #FA5252;
+}
+.error{
+    display: none;
+    /* margin-bottom: 12px; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX( calc(100% + 12px)) ;
+    background-color: #be4b49;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+/* .register_box-name>input:focus ~ .register_box-name-err{
+    display: block;
+} */
+.register_box-courseList{
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 100px;
+}
+
+.register_box-submmit{
+    width: 100%;
+    line-height: 44px;
+    border-radius: 100px;
+    background-color: #FA5252;
+    border: none;
+
+    color: #f2f5f9;
+    font-size: 20px;
+    font-weight: 600;
+}
+.register_box-submmit:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+@keyframes growth {
+    from {
+        transform: scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 0.8;
+    }
+}
